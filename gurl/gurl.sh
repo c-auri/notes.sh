@@ -14,6 +14,6 @@ else
     exit 2;
 fi
 
-awk -v table="$table" -v key="$key" -f /usr/local/bin/gurl/gurl.awk ~/notes/urls
+gawk -v table="$table" -v key="$key" -f /usr/local/bin/gurl/gurl.awk ~/notes/urls
 
 exit 0

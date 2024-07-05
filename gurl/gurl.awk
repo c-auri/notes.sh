@@ -1,3 +1,6 @@
+BEGIN {
+    IGNORECASE = 1
+}
 /^\s*$/ {
     current_table = ""
 }
